@@ -1,13 +1,19 @@
 .contact {
     margin: 2rem;
     display: flex;
+    color: white;
 }
-
 .form h1 {
     color: rgba(116, 116, 116, 0.28);
     font-size: 150px;
 }
-
+.form p{
+    position: relative;
+    top: -8.5rem;
+    left: 3rem;
+    background: none;
+    font-size: 40px;
+}
 input[type=text],
 textarea {
     width: 100%;
@@ -19,8 +25,11 @@ textarea {
 }
 textarea{
     padding: 3rem 1rem !important;
+    resize: none;
 }
-
+textarea::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
 input[type=submit] {
     width: 40%;
     background: rgba(196, 196, 196, 0.51);
@@ -30,6 +39,7 @@ input[type=submit] {
     margin: 2rem 1.5rem;
     border: none;
     cursor: pointer;
+    transition: all 0.7s;
 }
 
 input[type=submit]:hover {

@@ -1,19 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/header.component.js'
-import HomeSection from './components/home-section/home-section.component';
-import About from './components/about/about.component.js'
-import Projects from './components/projects/projects.component.js'
 import Contact from './components/contact/contact.component.js'
+import Home from './routes/home.routes.jsx'
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <HomeSection />
-      <About />
-      {/* <Projects /> */}
-      <Contact />
+      <Routes>
+        <Route path='/' element={< Home />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
     </div>
   );
 }

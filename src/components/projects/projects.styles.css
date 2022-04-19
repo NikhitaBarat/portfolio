@@ -1,3 +1,24 @@
-*{
+.projects{
     color: white;
+    padding: 2.5rem;
+}
+
+.projects h1 {
+    color: rgba(116, 116, 116, 0.28);
+    font-size: 150px;
+}
+
+.project-relative{
+    position: relative;
+    top: -8.5rem;
+    left: 3rem;
+    background: none;
+    font-size: 40px;
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }

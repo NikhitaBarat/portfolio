@@ -6,10 +6,12 @@ function About() {
     return (
         <div className='about'>
             <div className='image'>
+                <div className='profile-image'>
                 <img src={Profile} alt='' />
                 {/* Create an overlay effect on hover */}
                 {/* <div class="overlay">
                     <div class="text">Barat Nikhita</div></div> */}
+                </div>
             </div>
             <div className='about-content'>
                 <div className='summary'>

@@ -1,0 +1,16 @@
+.project-card {
+    height: 25rem;
+    width: 20rem;
+    padding: 1rem;
+}
+.project-banner{
+    width: 18rem;
+    height: 15rem;
+}
+.date{
+    padding: 1rem;
+}
+.desc{
+    padding: 1rem;
+    color: #7A7474;
+}
