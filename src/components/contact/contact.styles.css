@@ -1,0 +1,38 @@
+.contact {
+    margin: 2rem;
+    display: flex;
+}
+
+.form h1 {
+    color: rgba(116, 116, 116, 0.28);
+    font-size: 150px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 1.2rem 1rem;
+    margin: 2rem 1.5rem 0 1.5rem;
+    background: rgba(196, 196, 196, 0.12);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+textarea{
+    padding: 3rem 1rem !important;
+}
+
+input[type=submit] {
+    width: 40%;
+    background: rgba(196, 196, 196, 0.51);
+    box-sizing: border-box;
+    color: white;
+    padding: 1.2rem;
+    margin: 2rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}

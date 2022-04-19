@@ -1,0 +1,14 @@
+.home{
+    text-align: center;
+    color: white;
+    padding: 12rem 0;
+}
+.home h1{
+    font-size: 90px;
+    font-family: 'Ms Madi', cursive;
+}
+.home p{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 0.5em;
+}

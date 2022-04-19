@@ -1,0 +1,23 @@
+.header_{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 2rem;
+}
+.MuiSvgIcon-root{
+    color: white;
+}
+.nav_options ul{
+    display: flex;
+    list-style: none;
+}
+.nav_options li{
+    margin: 0 1.5rem;
+}
+.nav_options li a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}

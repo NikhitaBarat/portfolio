@@ -1,0 +1,50 @@
+.about {
+    color: white;
+    display: flex;
+    padding: 2.5rem;
+}
+
+.summary h1 {
+    color: rgba(116, 116, 116, 0.28);
+    font-size: 150px;
+}
+img{
+    height: 50%;
+    margin: 12rem 0;
+}
+.summary p {
+    color: #7A7474;
+    padding-bottom: 2rem;
+    line-height: 30px;
+}
+
+.about-content {
+    padding: 8rem;
+}
+
+button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 10px 32px;
+    color: white;
+    border: 2px solid #7A7474;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin:5% 35% 10%;
+}
+
+button:hover {
+     background-color: rgba(116, 116, 116, 0.28);
+     color: #3F7FDE;
+}
+.gray {
+    color: #7A7474;
+}
+
+.contact-details {
+    margin: 1rem 0;
+    line-height: 45px;
+    color: #3F7FDE;
+}
