@@ -22,10 +22,12 @@ textarea {
     background: rgba(196, 196, 196, 0.12);
     backdrop-filter: blur(10px);
     border: none;
+    color: white;
 }
 textarea{
     padding: 3rem 1rem !important;
     resize: none;
+    color: white;
 }
 textarea::placeholder{
     font-family: 'Poppins', sans-serif;
@@ -45,4 +47,5 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: black;
     color: white;
+    border-bottom: 1px solid white;
 }

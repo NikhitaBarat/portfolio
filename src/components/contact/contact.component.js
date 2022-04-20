@@ -8,7 +8,7 @@ function Contact() {
         <h1>CONTACT</h1>
         <p>Get in touch!</p>
         {/* form */}
-        <form action="/action_page.php">
+        <form action="https://formsubmit.co/bnikhita003@gmail.com" method="POST">
           <input type="text" id="name" placeholder="Your Name" />
           <input type="text" id="email" placeholder="Your Email" />
           <textarea placeholder='Message'></textarea>
