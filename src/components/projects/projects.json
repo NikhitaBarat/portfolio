@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "route": "project1",
+      "project_name": "Vibee",
+      "details": "Vibee is a website for social interaction through remote means.This website being an app for connecting the people, provides the people with an opportunity to spend countless hours mostly networking and gaming and plugging their own rooms without any disturbances.",
+      "url": "https://github.com/siddhantprateek/Cryptocurrency-Tracker",
+      "thumbnail": "https://camo.githubusercontent.com/842a880cd2873abca6f0ebe8d8fd35736ed99e4b135257a1ad7191e4b1c0d25a/68747470733a2f2f692e696d6775722e636f6d2f733853645470472e706e67",
+      "techlist": [
+        "React",
+        "Random Data API",
+        "NodeJs",
+        "ExpressJs",
+        "MongoDB",
+        "Auth0",
+        "Prisma"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Therdwave",
+      "route": "project2",
+      "details": "Therdwave allows music fans to fund the artists, songwriters and producers they love more directly, and in exchange, fans can receive royalties earned from their favorite recordings. The platform accomplishes this by collecting royalties from performing rights organizations, publishers and record labels on behalf of fans and then tracks them using proprietary blockchain technology.",
+      "url": "https://github.com/siddhantprateek/archvote",
+      "thumbnail": "https://camo.githubusercontent.com/d8a4ddde56c75667a62d18a35c2ee644db515bbf7f79d167349b6913597079fb/68747470733a2f2f692e696d6775722e636f6d2f596b39594550672e6a7067",
+      "techlist": ["React", "Prisma", "MongoDB", "NodeJs", "ExpressJs", "Auth0"]
+    },
+    {
+      "id": 3,
+      "project_name": "Tinder Clone",
+      "route": "project2",
+      "details": "A Tinder Clone, made using React, MongoDB and NodeJS",
+      "url": "https://github.com/siddhantprateek/archvote",
+      "thumbnail": "https://user-images.githubusercontent.com/93920874/163542691-cef7d276-5a0f-46f5-8288-59f0930fb91f.png",
+      "techlist": ["React", "MongoDB", "NodeJs", "ExpressJs"]
+    },
+    {
+      "id": 4,
+      "project_name": "Portfolio",
+      "route": "project2",
+      "details": "My developer portfolio using industry standard tools, including React, and Netlify.",
+      "url": "https://github.com/siddhantprateek/archvote",
+      "thumbnail": "https://user-images.githubusercontent.com/93920874/164265831-26643ac4-bdb4-4c7b-9563-71cbbd9af49a.png",
+      "techlist": ["React"]
+    }
+]

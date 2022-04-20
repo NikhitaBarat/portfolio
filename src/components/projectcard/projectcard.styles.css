@@ -1,14 +1,16 @@
 .project-card {
-    height: 25rem;
-    width: 20rem;
+    /* height: 25rem; */
+    width: 30rem;
     padding: 1rem;
+    
 }
 .project-banner{
-    width: 18rem;
-    height: 15rem;
+    width: 30rem;
+    height: 20rem;
 }
 .date{
     padding: 1rem;
+    color: white;
 }
 .desc{
     padding: 1rem;
