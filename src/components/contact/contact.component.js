@@ -9,10 +9,10 @@ function Contact() {
         <p>Get in touch!</p>
         {/* form */}
         <form action="https://formsubmit.co/bnikhita003@gmail.com" method="POST">
-          <input type="text" id="name" placeholder="Your Name" />
-          <input type="text" id="email" placeholder="Your Email" />
+          <input type="text" id="name" name='name' placeholder="Your Name" required/>
+          <input type="text" id="email" name='email' placeholder="Your Email" required/>
           <textarea placeholder='Message'></textarea>
-          <input type="submit" value="Send message" />
+          <button className='button-form' type="submit">Send message</button>
         </form>
         {/* button */}
       </div>

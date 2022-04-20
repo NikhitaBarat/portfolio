@@ -32,7 +32,7 @@ textarea{
 textarea::placeholder{
     font-family: 'Poppins', sans-serif;
 }
-input[type=submit] {
+.button-form{
     width: 40%;
     background: rgba(196, 196, 196, 0.51);
     box-sizing: border-box;
@@ -42,9 +42,11 @@ input[type=submit] {
     border: none;
     cursor: pointer;
     transition: all 0.7s;
+    outline: none;
+    border-radius: 0;
 }
 
-input[type=submit]:hover {
+.button-form:hover {
     background-color: black;
     color: white;
     border-bottom: 1px solid white;
